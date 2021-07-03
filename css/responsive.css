@@ -1,0 +1,448 @@
+@media (max-width: 575px){
+    header #navigation{
+        background: #e23e38;
+    }
+    header #navigation,header #navigation.NavFixed{
+        position: fixed;
+        top:0px;
+        left: 0;
+        z-index: 9999999;
+         padding: 10px 0
+    }
+    header #navigation .navbar .navbar-brand img{
+        height: 50px;
+        padding: 5px 0;
+    }
+    header #navigation .navbar .navbar-brand{
+        padding: 1px 30px !important;
+        left: 12px;
+    }
+    header #navigation.navFixed .navbar .navbar-brand{
+        padding: 1px 30px !important;
+        left: 12px;
+        top: -10px;
+    }
+    header #navigation nav .navbar-nav {
+        text-align: center;
+        margin-top: 15px
+        
+    }
+    header #navigation nav .navbar-nav .nav-item .nav-link:hover::after,
+    header #navigation nav .navbar-nav .nav-item .nav-link.active::after{
+        width: 0%;
+    }
+    header #navigation nav .navbar-nav .nav-item .nav-link{
+        line-height: 30px;
+    }
+    header #navigation nav .navbar-nav .nav-item .nav-link.user{
+        width: 15%;
+        margin: 2px auto
+    }
+    
+    #banner .banner_border_1::after{
+        content: '';
+        position: absolute;
+        width: 0%;
+        height: 3px;
+        left: -19px;
+        top: 20px;
+        background: #e23e38;
+        border-bottom-right-radius: 29px;
+    }
+    #banner .banner_border_1::before{
+        position: absolute;
+        content: '';
+        height: 0%;
+        width: 3px;
+        left: -22px;
+        bottom: 19px;
+        background: #e23e38;
+    }
+    #banner .banner_border_2::after{
+        position: absolute;
+        content: '';
+        height: 3px;
+        width: 0%;
+        background: #e23e38;
+        left: -19px;
+        bottom: 19px;
+        border-bottom-right-radius: 30px
+    }
+    #banner .banner_border_2::before{
+          position: absolute;
+        content: '';
+        height: 3px;
+        width: 0%;
+        background: #e23e38;
+        right: -21px;
+        bottom: 19px;
+        border-bottom-left-radius: 30px
+    }
+    #banner .banner_border_3::before{
+        position: absolute;
+        content: '';
+        height: 83%;
+        width: 0;
+        right: -22px;
+        bottom: 19px;
+        background: #e23e38;
+
+    }
+    #banner h3{
+        font-size: 25px
+    }
+    #banner h1{
+         font-size: 40px;
+    }
+    #banner .banner_border_3::after{
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 3px;
+        right: -19px;
+        top: 20px;
+        background: #e23e38;
+        border-bottom-left-radius: 29px; 
+    }
+    #about .about_text{
+        margin-top: 20px;
+    }
+    
+    #about.pt80{
+        padding-top: 40px;
+    }
+    #about .about_text p{
+        padding-left: 0px !important;
+        text-align:justify;
+    }
+    
+    #gallery.pt80{
+        padding-top: 40px;
+    }
+    #team_part .taem_slide .slick-list{
+        padding-top: 50px;
+    }
+    #team_part.pt80{
+        padding-top: 40px;
+    }
+    #testimonial.pt80{
+        padding-top: 40px;
+    }
+    #membership.p80{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    #membership .member_hv{
+        margin-top: 20px;
+    }
+    .c_t2{
+        margin-top: 20px;
+    }
+    #counter_part h3{
+        font-size: 30px;
+    }
+    #classes .tab-content ul li{
+        width: 50%;
+    }
+    #partner.pt80{
+        padding-top: 40px;
+    }
+    footer .footer_overlay .footer_contents h3{
+        padding-bottom: 15px;
+    }
+    footer .footer_overlay .footer_contents ul.social{
+        margin-bottom: 10px;
+    }
+}
+
+@media(min-width:576px) and (max-width:767px){
+    header #navigation{
+        background: #e23e38;
+    }
+    header #navigation,header #navigation.NavFixed{
+        position: fixed;
+        top:0px;
+        left: 0;
+        z-index: 9999999;
+         padding: 10px 0
+    }
+    header #navigation .navbar .navbar-brand img{
+        height: 50px;
+        padding: 5px 0;
+    }
+    header #navigation .navbar .navbar-brand{
+        padding: 1px 30px !important;
+        left: 12px;
+    }
+    header #navigation.navFixed .navbar .navbar-brand{
+        padding: 1px 30px !important;
+        left: 12px;
+        top: -10px;
+    }
+    header #navigation nav .navbar-nav {
+        text-align: center;
+        margin-top: 15px
+        
+    }
+    #banner h3{
+    font-size: 25px
+    }
+    #banner h1{
+         font-size: 40px;
+    }
+    header #navigation nav .navbar-nav .nav-item .nav-link:hover::after,
+    header #navigation nav .navbar-nav .nav-item .nav-link.active::after{
+        width: 0%;
+    }
+    header #navigation nav .navbar-nav .nav-item .nav-link{
+        line-height: 30px;
+    }
+    header #navigation nav .navbar-nav .nav-item .nav-link.user{
+        width: 15%;
+        margin: 2px auto
+    }
+    #banner .banner_border_1::after{
+        left: 1px;
+        top: 17px;
+        width: 27%;
+    }
+    #banner .banner_border_1::before{
+        left: -2px;
+        height: 84%;
+    }
+    #banner .banner_border_2::after{
+        left: -2px;
+        width: 11%;
+    }
+    #banner .banner_border_2::before{
+        width: 9%;
+        right: -19px;
+    
+    }
+    #banner .banner_border_3::before{
+        height: 84%;
+        right: -21px;
+   
+    }
+    #banner .banner_border_3::after{
+        width: 22%;
+        right: -21px;
+        top: 17px;
+    }
+    #about .about_text{
+        margin-top: 20px;
+    }
+    #about.pt80{
+        padding-top: 40px;
+    }
+    #about .about_text p{
+        padding-left: 0px !important;
+        text-align: justify;
+    }
+    
+    #gallery.pt80{
+        padding-top: 40px;
+    }
+    #team_part .taem_slide .slick-list{
+        padding-top: 50px;
+    }
+    #team_part.pt80{
+        padding-top: 40px;
+    }
+    #testimonial.pt80{
+        padding-top: 40px;
+    }
+    #membership.p80{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    #membership .member_hv{
+        margin-top: 20px;
+    }
+    #partner .partner_slide i.left_angle{
+        left: -16px;
+    }
+    #partner .partner_slide i.left_angle{
+        right: -14px;
+    }
+    #partner .partner_slide i.right_angle{
+        right: -14px;
+    }
+    .c_t2{
+        margin-top: 20px;
+    }
+    #counter_part h3{
+        font-size: 30px;
+    }
+    #classes .tab-content ul li{
+        width: 50%;
+    }
+    #partner.pt80{
+        padding-top: 40px;
+    }
+    footer .footer_overlay .footer_contents h3{
+        padding-bottom: 15px;
+    }
+    footer .footer_overlay .footer_contents ul.social{
+        margin-bottom: 10px !important;
+    }
+}
+
+@media(min-width:768px) and (max-width:991px){
+    header #navigation{
+        background: #e23e38;
+    }
+    header #navigation,header #navigation.NavFixed{
+        position: fixed;
+        top:0px;
+        left: 0;
+        z-index: 9999999;
+         padding: 10px 0
+    }
+    header #navigation .navbar .navbar-brand img{
+        height: 50px;
+        padding: 5px 0;
+    }
+    header #navigation .navbar .navbar-brand{
+        padding: 1px 30px !important;
+        left: 12px;
+    }
+    header #navigation.navFixed .navbar .navbar-brand{
+        padding: 1px 30px !important;
+        left: 12px;
+        top: -10px;
+    }
+    header #navigation nav .navbar-nav {
+        text-align: center;
+        margin-top: 15px
+        
+    }
+    #banner h3{
+    font-size: 25px
+    }
+    #banner h1{
+         font-size: 40px;
+    }
+    #banner p{
+        font-size: 15px;
+    }
+    header #navigation nav .navbar-nav .nav-item .nav-link:hover::after,
+    header #navigation nav .navbar-nav .nav-item .nav-link.active::after{
+        width: 0%;
+    }
+    header #navigation nav .navbar-nav .nav-item .nav-link{
+        line-height: 30px;
+    }
+    header #navigation nav .navbar-nav .nav-item .nav-link.user{
+        width: 15%;
+        margin: 2px auto
+    }
+    #banner .banner_border_1::after{
+        left: 8px;
+        top: 17px;
+        width: 29%;
+    }
+    #banner .banner_border_1::before{
+        left: 8px;
+        height: 82%;
+    }
+    #banner .banner_border_2::after{
+        left: 8px;
+        width: 21%;
+    }
+    #banner .banner_border_2::before {
+        width: 17%;
+        right: 8px;
+    }
+
+    #banner .banner_border_3::before {
+
+        height: 81%;
+        right: 5px;
+
+    }
+    #banner .banner_border_3::after {
+        width: 24%;
+        right: 5px;
+        top: 17px;
+    }
+    #about .about_text{
+        margin-top: 20px;
+    }
+    #about.pt80{
+        padding-top: 40px;
+    }
+    #about .about_text p{
+        padding-left: 0px !important;
+        text-align: justify;
+    }
+    
+    #gallery.pt80{
+        padding-top: 40px;
+    }
+    #team_part .taem_slide .slick-list{
+        padding-top: 50px;
+    }
+    #team_part.pt80{
+        padding-top: 40px;
+    }
+    #testimonial.pt80{
+        padding-top: 40px;
+    }
+    #membership.p80{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    #membership .member_hv{
+        margin-top: 20px;
+    }
+    #partner .partner_slide i.left_angle{
+        left: -16px;
+    }
+    #partner .partner_slide i.left_angle{
+        right: -14px;
+    }
+    #partner .partner_slide i.right_angle{
+        right: -14px;
+    }
+    .c_t2{
+        margin-top: 20px;
+    }
+    #counter_part h3{
+        font-size: 30px;
+    }
+    #classes .tab-content ul li{
+        width: 50%;
+    }
+    #partner.pt80{
+        padding-top: 40px;
+    }
+    footer .footer_overlay .footer_contents h3{
+        padding-bottom: 15px;
+    }
+    footer .footer_overlay .footer_contents ul.social {
+        margin-bottom: 15px !important;
+        margin-top: 10px;
+    }
+    footer .footer_overlay .footer_contents .cntc_h3 {
+        padding-top: 25px;
+    }
+    footer .footer_overlay .footer_contents address p{
+        margin-top: 10px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
